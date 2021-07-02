@@ -13,7 +13,7 @@ const Home = () => {
         bsPrefix="jumbotron bg-neongreen homecontent"
       >
         <Row>
-          <Col sm={1} className="center">
+          <Col sm className="center">
             <h1>Uma frase de efeito!</h1>
             <p>
               Alguma frase legal para atrair leads
@@ -26,7 +26,7 @@ const Home = () => {
               </Button>
             </p>
           </Col>
-          <Col>
+          <Col sm>
             <img className="img-fluid" src={breakfastRose} />
           </Col>
         </Row>
