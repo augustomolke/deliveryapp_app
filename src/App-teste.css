@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+input,
+button {
+  border: none;
+  margin: none;
+  appearance: none;
+  outline: none;
+}
+
+#root {
+  height: 100vh;
+  width: 100wh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #585858;
+}
+
+.App {
+  position: relative;
+}
+
+.content {
+  background-color: #fff;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content > a {
+  align-self: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  align-self: center;
+  font-size: 40px;
+}
+
+.App::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: 0;
+}
+
+button:hover {
+  background-image: linear-gradient(to bottom right, #ffce00, #fe4880);
+}
