@@ -7,6 +7,7 @@ import Popover from "react-bootstrap/Popover";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Login from "./Login";
 import Logout from "./Logout";
+import Link from "react-router-dom/Link";
 
 const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   const popLogin = (
@@ -18,15 +19,19 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   return authStatus ? (
     <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand bsPrefix="navbar-brand brandFont" as={Link} to="/">
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#restaurants">Restaurants</Nav.Link>
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/restaurants">
+              Restaurants
+            </Nav.Link>
             <NavDropdown title="My Account" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Change my Data
@@ -43,15 +48,19 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   ) : (
     <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand bsPrefix="navbar-brand brandFont" href="#">
+        <Navbar.Brand bsPrefix="navbar-brand brandFont" as={Link} to="/">
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#createuser">Create an Account</Nav.Link>
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/createuser">
+              Create an Account
+            </Nav.Link>
             <OverlayTrigger
               trigger="click"
               placement="bottom"
