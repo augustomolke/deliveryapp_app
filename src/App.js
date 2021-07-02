@@ -11,7 +11,6 @@ import Home from "./pages/home";
 
 function App() {
   const [isLogged, setIsLogged] = useState(!!authServices.getCurrentUser());
-  console.log("renderizou App", isLogged);
 
   return (
     <Router>
