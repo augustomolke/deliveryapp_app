@@ -25,8 +25,8 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/restaurants">Restaurants</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#restaurants">Restaurants</Nav.Link>
             <NavDropdown title="My Account" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Change my Data
@@ -51,7 +51,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/createuser">Create an Account</Nav.Link>
+            <Nav.Link href="#createuser">Create an Account</Nav.Link>
             <OverlayTrigger
               trigger="click"
               placement="bottom"
