@@ -25,7 +25,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ml-auto">
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
@@ -54,7 +54,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ml-auto">
             <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
