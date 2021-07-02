@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/deliveryapp_app/static/css/main.7d57e665.chunk.css",
+    "main.js": "/deliveryapp_app/static/js/main.347aa3b5.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.347aa3b5.chunk.js.map",
+    "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.0c6fb3e2.js",
+    "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.0c6fb3e2.js.map",
+    "static/css/2.d45d6843.chunk.css": "/deliveryapp_app/static/css/2.d45d6843.chunk.css",
+    "static/js/2.b0985050.chunk.js": "/deliveryapp_app/static/js/2.b0985050.chunk.js",
+    "static/js/2.b0985050.chunk.js.map": "/deliveryapp_app/static/js/2.b0985050.chunk.js.map",
+    "static/js/3.9134080c.chunk.js": "/deliveryapp_app/static/js/3.9134080c.chunk.js",
+    "static/js/3.9134080c.chunk.js.map": "/deliveryapp_app/static/js/3.9134080c.chunk.js.map",
+    "index.html": "/deliveryapp_app/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/deliveryapp_app/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.7d57e665.chunk.css.map": "/deliveryapp_app/static/css/main.7d57e665.chunk.css.map",
+    "static/js/2.b0985050.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.b0985050.chunk.js.LICENSE.txt",
+    "static/media/undraw_Hamburger_8ge6.f04a3704.svg": "/deliveryapp_app/static/media/undraw_Hamburger_8ge6.f04a3704.svg",
+    "static/media/undraw_breakfast_psiw.fdfbdb40.svg": "/deliveryapp_app/static/media/undraw_breakfast_psiw.fdfbdb40.svg",
+    "static/media/watermelon-icon.14c6f06f.png": "/deliveryapp_app/static/media/watermelon-icon.14c6f06f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c6fb3e2.js",
+    "static/css/2.d45d6843.chunk.css",
+    "static/js/2.b0985050.chunk.js",
+    "static/css/main.7d57e665.chunk.css",
+    "static/js/main.347aa3b5.chunk.js"
+  ]
+}
