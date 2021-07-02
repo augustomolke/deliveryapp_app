@@ -18,7 +18,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   return authStatus ? (
     <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="#">
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
@@ -43,14 +43,14 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   ) : (
     <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
       <Container>
-        <Navbar.Brand bsPrefix="navbar-brand brandFont" href="/">
+        <Navbar.Brand bsPrefix="navbar-brand brandFont" href="#">
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#createuser">Create an Account</Nav.Link>
             <OverlayTrigger
               trigger="click"
