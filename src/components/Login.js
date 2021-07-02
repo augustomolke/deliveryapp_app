@@ -30,10 +30,7 @@ export default function Login({ handleLogin }) {
     );
   };
   return (
-    <Card
-      bsPrefix="card center melonborder"
-      style={{ width: "255px", height: "286px" }}
-    >
+    <Card bsPrefix="card logincard center melonborder">
       {isPending ? (
         <Spinner animation="border" role="status" variant="success"></Spinner>
       ) : (

@@ -60,3 +60,8 @@
 .collapse {
   justify-content: flex-end;
 }
+
+.logincard {
+  min-height: 286px;
+  min-width: 255px !important;
+}
