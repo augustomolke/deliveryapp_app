@@ -17,19 +17,30 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
   );
 
   return authStatus ? (
-    <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
+    <Navbar
+      bg="green"
+      expand="lg"
+      variant="dark"
+      sticky="top"
+      collapseOnSelect="true"
+    >
       <Container>
-        <Navbar.Brand bsPrefix="navbar-brand brandFont" as={Link} to="/">
+        <Navbar.Brand
+          eventKey="1"
+          bsPrefix="navbar-brand brandFont"
+          as={Link}
+          to="/"
+        >
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link eventKey="1" as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/restaurants">
+            <Nav.Link eventKey="1" as={Link} to="/restaurants">
               Restaurants
             </Nav.Link>
             <NavDropdown title="My Account" id="basic-nav-dropdown">
@@ -46,19 +57,30 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
       </Container>
     </Navbar>
   ) : (
-    <Navbar bg="green" expand="lg" variant="dark" sticky="top" collapseOnSelect>
+    <Navbar
+      bg="green"
+      expand="lg"
+      variant="dark"
+      sticky="top"
+      collapseOnSelect="true"
+    >
       <Container>
-        <Navbar.Brand bsPrefix="navbar-brand brandFont" as={Link} to="/">
+        <Navbar.Brand
+          eventKey="1"
+          bsPrefix="navbar-brand brandFont"
+          as={Link}
+          to="/"
+        >
           <img src={logo} width="30px" height="30px" />
           Melon
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link as={Link} to="/">
+            <Nav.Link eventKey="1" as={Link} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={Link} to="/createuser">
+            <Nav.Link eventKey="1" as={Link} to="/createuser">
               Create an Account
             </Nav.Link>
             <OverlayTrigger

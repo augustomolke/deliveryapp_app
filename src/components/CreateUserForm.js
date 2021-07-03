@@ -23,7 +23,7 @@ export default function CreateUserForm() {
     );
   }
   return (
-    <Card style={{ width: "18rem" }}>
+    <Card bsPrefix="card createusercard center melonborder">
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicName">
           <Form.Label>Email address</Form.Label>
@@ -64,7 +64,7 @@ export default function CreateUserForm() {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="success" type="submit">
           Submit
         </Button>
       </Form>

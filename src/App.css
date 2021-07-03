@@ -39,6 +39,10 @@
   height: 80vh;
 }
 
+.fullpage {
+  height: auto;
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -50,6 +54,10 @@
   outline: 5px solid #1d741b !important;
   border: 12px solid #88ca5e !important;
   padding: 16px;
+}
+
+.createusercard {
+  max-width: 350px !important;
 }
 
 .jumbotron {
@@ -64,4 +72,20 @@
 .logincard {
   min-height: 286px;
   min-width: 255px !important;
+}
+
+.overlayrow {
+  z-index: 1;
+  position: relative;
+}
+
+.toprow {
+  z-index: 2;
+  position: sticky;
+  top: 20vh;
+  left: 0;
+}
+
+.containetOverlap {
+  position: relative !important;
 }
