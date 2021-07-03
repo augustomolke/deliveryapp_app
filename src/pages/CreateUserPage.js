@@ -10,10 +10,10 @@ export default function CreateUserPage() {
       <Jumbotron className="center" bsPrefix="jumbotron fullpage bg-rosequartz">
         <Col bsPrefix="col containetOverlap">
           <Row bsPrefix="toprow row">
-            <Col bsPrefix="center col">
+            <Col lg={6} bsPrefix="center col">
               <CreateUserForm />
             </Col>
-            <Col bsPrefix="center col">
+            <Col lg={6} bsPrefix="center col">
               <h1>Uma frase de efeito!</h1>
               <p>
                 Alguma frase legal para atrair leads
