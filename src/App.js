@@ -1,8 +1,8 @@
 //import logo from "./logo.svg";
 import "./App.css";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import { useState, useEffect } from "react";
-import CreateUser from "./components/CreateUser";
+import { useState } from "react";
+import CreateUserPage from "./pages/CreateUserPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Nave from "./components/Nave";
 import PrivateRoute from "./routes/PrivateRoute";
@@ -31,7 +31,7 @@ function App() {
             </Route>
 
             <Route path="/createuser">
-              <CreateUser />
+              <CreateUserPage />
             </Route>
             <PrivateRoute
               path="/mydata"

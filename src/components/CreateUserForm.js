@@ -4,7 +4,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export default function CreateUser() {
+export default function CreateUserForm() {
   const [userData, setUserData] = useState({
     name: "",
     email: "",

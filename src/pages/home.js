@@ -2,6 +2,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import breakfastRose from "../assets/undraw_breakfast_psiw.svg";
 import hamburguer from "../assets/undraw_Hamburger_8ge6.svg";
+import Link from "react-router-dom/Link";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -21,7 +22,12 @@ const Home = () => {
               para criar conta.
             </p>
             <p>
-              <Button bsPrefix="btn" variant="success">
+              <Button
+                as={Link}
+                to="/createuser"
+                bsPrefix="btn"
+                variant="success"
+              >
                 <strong>Sign up!</strong>
               </Button>
             </p>
