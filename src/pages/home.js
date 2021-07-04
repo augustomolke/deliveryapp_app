@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Jumbotron
         className="center"
-        bsPrefix="jumbotron bg-neongreen homecontent"
+        bsPrefix="jumbotron bg-lightergreen homecontent"
       >
         <Row>
           <Col sm className="center">
@@ -38,7 +38,7 @@ const Home = () => {
         </Row>
       </Jumbotron>
 
-      <Jumbotron bsPrefix="jumbotron bg-rosequartz homecontent">
+      <Jumbotron bsPrefix="jumbotron bg-lighterrose homecontent">
         <h1>Hello, world!</h1>
         <p>
           This is a simple hero unit, a simple jumbotron-style component for

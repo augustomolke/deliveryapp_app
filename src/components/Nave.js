@@ -88,7 +88,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
               placement="bottom"
               overlay={popLogin}
             >
-              <Nav.Link>Login</Nav.Link>
+              <Nav.Link bsPrefix="loginButton nav-link">Login</Nav.Link>
             </OverlayTrigger>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.2">Help</NavDropdown.Item>

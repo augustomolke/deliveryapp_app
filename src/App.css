@@ -31,6 +31,10 @@
   background-color: #f1c0b9;
 }
 
+.bg-lighterrose {
+  background-color: #f1dcd9;
+}
+
 .bg-neongreen {
   background-color: #d2fba4;
 }
@@ -109,5 +113,6 @@
 }
 
 h3 {
+  margin-top: 16px !important;
   font-weight: 900 !important;
 }

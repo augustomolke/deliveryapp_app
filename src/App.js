@@ -19,7 +19,7 @@ function App() {
         handleLogout={() => {
           setIsLogged(false);
         }}
-        handleLogin={() => {
+        handleLogin={(e) => {
           setIsLogged(true);
         }}
       />
