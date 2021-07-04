@@ -7,16 +7,17 @@ import Link from "react-router-dom/Link";
 import Popover from "react-bootstrap/Popover";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Login from "../components/Login";
+import icecreamimg from "../assets/undraw_ice_cream_s2rh rose.svg";
 
 export default function CreateUserPage({ handleLoginFunc }) {
   return (
     <>
       <Jumbotron className="center" bsPrefix="jumbotron fullpage bg-rosequartz">
-        <Row bsPrefix="toprow row">
+        <Row bsPrefix="toprow bg-neongreen melonborder row">
           <Col lg={6} bsPrefix="center col">
-            <Image bsPrefix="img-fluid overlayimg " fluid src={tasting} />
+            <Image bsPrefix="img-fluid overlayimg " fluid src={icecreamimg} />
           </Col>
-          <Col lg={6} bsPrefix="center bg-neongreen melonborder col">
+          <Col lg={6} bsPrefix="center   col">
             <h3>Start ordering food today!</h3>
             <CreateUserForm />
             <p>
