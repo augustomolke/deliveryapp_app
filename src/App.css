@@ -121,6 +121,4 @@ h3 {
 }
 
 .loginButton:focus {
-  background-color: #ff7373 !important;
-  color: #212529 !important;
 }
