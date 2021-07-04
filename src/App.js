@@ -31,7 +31,11 @@ function App() {
             </Route>
 
             <Route path="/createuser">
-              <CreateUserPage />
+              <CreateUserPage
+                handleLoginFunc={() => {
+                  setIsLogged(true);
+                }}
+              />
             </Route>
             <PrivateRoute
               path="/mydata"

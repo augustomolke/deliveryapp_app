@@ -40,7 +40,7 @@
 }
 
 .fullpage {
-  height: auto;
+  min-height: calc(100vh - 80px);
 }
 
 .center {
@@ -54,10 +54,6 @@
   outline: 5px solid #1d741b !important;
   border: 12px solid #88ca5e !important;
   padding: 16px;
-}
-
-.createusercard {
-  max-width: 350px !important;
 }
 
 .jumbotron {
@@ -88,4 +84,22 @@
 
 .containetOverlap {
   position: relative !important;
+}
+
+.createusercard {
+  padding: 16px;
+  background-color: transparent !important;
+  border: none !important;
+  width: 100%;
+  height: 100%;
+}
+
+.createusercard form {
+  width: 100%;
+  height: 100%;
+}
+
+.createusercard form label {
+  font-weight: 900;
+  font-size: 18px !important;
 }

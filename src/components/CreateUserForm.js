@@ -23,10 +23,10 @@ export default function CreateUserForm() {
     );
   }
   return (
-    <Card bsPrefix="card createusercard center melonborder">
+    <Card bsPrefix="card createusercard center">
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicName">
-          <Form.Label>Email address</Form.Label>
+          <Form.Label>Name</Form.Label>
           <Form.Control
             type="name"
             placeholder="Enter name"
@@ -62,6 +62,11 @@ export default function CreateUserForm() {
               setUserData({ ...userData, password: e.target.value });
             }}
           />
+        </Form.Group>
+
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Confirm your Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
         </Form.Group>
 
         <Button variant="success" type="submit">
