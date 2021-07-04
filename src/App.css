@@ -18,10 +18,14 @@
   background-color: #1d741b !important;
 }
 
+.btn-success strong {
+  color: white !important;
+}
+
 .btn-success:hover {
   background-color: #88ca5e !important;
   border-color: #88ca5e !important;
-  color: #212529 !important;
+  color: #2f2e41 !important;
 }
 
 .bg-limegreen {
