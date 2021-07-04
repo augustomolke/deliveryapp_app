@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deliveryapp_app/static/css/main.09cccad0.chunk.css",
-    "main.js": "/deliveryapp_app/static/js/main.4f4864ba.chunk.js",
-    "main.js.map": "/deliveryapp_app/static/js/main.4f4864ba.chunk.js.map",
+    "main.js": "/deliveryapp_app/static/js/main.a64d2890.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.a64d2890.chunk.js.map",
     "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.c856ac79.js",
     "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.c856ac79.js.map",
     "static/css/2.d45d6843.chunk.css": "/deliveryapp_app/static/css/2.d45d6843.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.4b5bf181.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.4b5bf181.chunk.js.LICENSE.txt",
     "static/media/undraw_Hamburger_8ge6.f04a3704.svg": "/deliveryapp_app/static/media/undraw_Hamburger_8ge6.f04a3704.svg",
     "static/media/undraw_breakfast_psiw.fdfbdb40.svg": "/deliveryapp_app/static/media/undraw_breakfast_psiw.fdfbdb40.svg",
+    "static/media/undraw_ice_cream_s2rh rose.75c0d536.svg": "/deliveryapp_app/static/media/undraw_ice_cream_s2rh rose.75c0d536.svg",
     "static/media/undraw_tasting_de22.fc321559.svg": "/deliveryapp_app/static/media/undraw_tasting_de22.fc321559.svg",
     "static/media/watermelon-icon.14c6f06f.png": "/deliveryapp_app/static/media/watermelon-icon.14c6f06f.png"
   },
@@ -24,6 +25,6 @@
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.4b5bf181.chunk.js",
     "static/css/main.09cccad0.chunk.css",
-    "static/js/main.4f4864ba.chunk.js"
+    "static/js/main.a64d2890.chunk.js"
   ]
 }
