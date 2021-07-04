@@ -3,6 +3,7 @@
 
 * {
   font-family: "Poppins";
+  color: #2f2e41;
 }
 
 .brandFont {
@@ -115,6 +116,8 @@
 h3 {
   margin-top: 16px !important;
   font-weight: 900 !important;
+  font-family: "Yellowtail";
+  font-size: 36px !important;
 }
 .nav-link {
   border-radius: 30px;

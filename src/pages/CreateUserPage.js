@@ -18,12 +18,12 @@ export default function CreateUserPage({ handleLoginFunc }) {
             <Image bsPrefix="img-fluid overlayimg " fluid src={icecreamimg} />
           </Col>
           <Col lg={6} bsPrefix="center col">
-            <h3>Start ordering food today!</h3>
+            <h3>Join us today!</h3>
             <CreateUserForm />
             <p>
               Already have an account?
               <OverlayTrigger
-                trigger="click"
+                trigger="focus"
                 placement="auto"
                 overlay={
                   <Popover id="popover-basic">
