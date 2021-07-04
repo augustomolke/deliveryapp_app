@@ -31,11 +31,11 @@ export default function Login({ handleLogin }) {
   };
   return (
     <>
-      <Card bsPrefix="card logincard center melonborder">
+      <Card bsPrefix="card logincard center bg-lightergreen melonborder">
         {isPending ? (
           <Spinner animation="border" role="status" variant="success"></Spinner>
         ) : (
-          <Form className="center" onSubmit={checkCredentials}>
+          <Form className="center bg-lightergreen" onSubmit={checkCredentials}>
             <Form.Group className="mb-3 center" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control

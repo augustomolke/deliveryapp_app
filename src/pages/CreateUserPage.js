@@ -13,11 +13,11 @@ export default function CreateUserPage({ handleLoginFunc }) {
   return (
     <>
       <Jumbotron className="center" bsPrefix="jumbotron fullpage bg-rosequartz">
-        <Row bsPrefix="toprow bg-neongreen melonborder row">
+        <Row bsPrefix="toprow bg-lightergreen melonborder row">
           <Col lg={6} bsPrefix="center col">
             <Image bsPrefix="img-fluid overlayimg " fluid src={icecreamimg} />
           </Col>
-          <Col lg={6} bsPrefix="center   col">
+          <Col lg={6} bsPrefix="center col">
             <h3>Start ordering food today!</h3>
             <CreateUserForm />
             <p>

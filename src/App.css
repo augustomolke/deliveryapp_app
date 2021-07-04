@@ -35,6 +35,10 @@
   background-color: #d2fba4;
 }
 
+.bg-lightergreen {
+  background-color: #f3fbe9 !important;
+}
+
 .homecontent {
   min-height: 80vh;
 }
@@ -100,6 +104,10 @@
 }
 
 .createusercard form label {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px !important;
+}
+
+h3 {
+  font-weight: 900 !important;
 }
