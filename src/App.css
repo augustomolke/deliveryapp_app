@@ -116,3 +116,11 @@ h3 {
   margin-top: 16px !important;
   font-weight: 900 !important;
 }
+.nav-link {
+  border-radius: 30px;
+}
+
+.loginButton:focus {
+  background-color: #ff7373 !important;
+  color: #212529 !important;
+}

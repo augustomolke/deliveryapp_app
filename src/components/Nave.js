@@ -84,7 +84,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
               Create an Account
             </Nav.Link>
             <OverlayTrigger
-              trigger="click"
+              trigger="focus"
               placement="bottom"
               overlay={popLogin}
             >
