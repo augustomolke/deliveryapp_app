@@ -24,6 +24,7 @@ const updateUser = (id, userData) => {
     userData
   );
 };
+
 const userServices = {
   getUsers,
   createUser,

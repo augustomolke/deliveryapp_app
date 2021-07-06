@@ -23,10 +23,10 @@ export default function CreateUserPage({ handleLoginFunc }) {
             <p>
               Already have an account?
               <OverlayTrigger
-                trigger="focus"
-                placement="auto"
+                rootClose
+                trigger="click"
                 overlay={
-                  <Popover id="popover-basic">
+                  <Popover id="popover-trigger-click-root-close">
                     <Login handleLogin={handleLoginFunc} />
                   </Popover>
                 }

@@ -5,17 +5,13 @@ import Nav from "react-bootstrap/Nav";
 import logo from "../assets/watermelon-icon.png";
 import Popover from "react-bootstrap/Popover";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Overlay from "react-overlays/esm/Overlay";
 import Login from "./Login";
 import Logout from "./Logout";
 import Link from "react-router-dom/Link";
+import { useState, useRef } from "react";
 
 const Nave = ({ authStatus, handleLogout, handleLogin }) => {
-  const popLogin = (
-    <Popover id="popover-basic">
-      <Login handleLogin={handleLogin} />
-    </Popover>
-  );
-
   return authStatus ? (
     <Navbar
       bg="green"
@@ -83,13 +79,20 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
             <Nav.Link eventKey="1" as={Link} to="/createuser">
               Create an Account
             </Nav.Link>
+
             <OverlayTrigger
-              trigger="focus"
+              rootClose
+              trigger="click"
               placement="bottom"
-              overlay={popLogin}
+              overlay={
+                <Popover id="popover-trigger-click-root-close">
+                  <Login handleLogin={handleLogin} />
+                </Popover>
+              }
             >
-              <Nav.Link bsPrefix="loginButton nav-link">Login</Nav.Link>
+              <Nav.Link>Login</Nav.Link>
             </OverlayTrigger>
+
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.2">Help</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
