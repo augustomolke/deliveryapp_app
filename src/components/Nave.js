@@ -40,7 +40,9 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
               Restaurants
             </Nav.Link>
             <NavDropdown title="My Account" id="basic-nav-dropdown">
+
               <NavDropdown.Item as={Link} to="/myaccount">
+
                 Change my Data
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">My Orders</NavDropdown.Item>
