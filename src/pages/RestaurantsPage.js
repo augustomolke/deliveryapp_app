@@ -1,6 +1,10 @@
+import ResourceCard from "../components/ResourceCard";
+
 const RestaurantsPage = () => {
   return (
-    <div className="bg-lighterrose fullpage">acabei de comitar no develop</div>
+    <div className="bg-lighterrose fullpage">
+      <ResourceCard />
+    </div>
   );
 };
 

@@ -8,6 +8,7 @@ import Nave from "./components/Nave";
 import PrivateRoute from "./routes/PrivateRoute";
 import authServices from "./services/authServices";
 import Home from "./pages/home";
+import myAccountPage from "./pages/myAccountPage";
 
 function App() {
   const [isLogged, setIsLogged] = useState(!!authServices.getCurrentUser());
@@ -39,7 +40,7 @@ function App() {
             </Route>
             <PrivateRoute
               path="/mydata"
-              component={<h1>My data private!!!</h1>}
+              component={myAccountPage}
               permissions={"CLIENT, ADMIN"}
             />
           </Switch>
