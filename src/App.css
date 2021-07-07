@@ -149,11 +149,11 @@ h3 {
   margin: 16px 16px;
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .resourcecardLink {
     margin: 16px 0px;
   }
-}
+}*/
 
 .listingContainer {
   max-width: 80vw;
