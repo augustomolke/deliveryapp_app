@@ -40,7 +40,9 @@ function App() {
               />
             </Route>
             <PrivateRoute
-              path="/mydata"
+
+              path="/myaccount"
+
               component={myAccountPage}
               permissions={"CLIENT, ADMIN"}
             />
