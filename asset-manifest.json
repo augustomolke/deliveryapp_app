@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/deliveryapp_app/static/css/main.6ca06ccf.chunk.css",
-    "main.js": "/deliveryapp_app/static/js/main.05a5ea3c.chunk.js",
-    "main.js.map": "/deliveryapp_app/static/js/main.05a5ea3c.chunk.js.map",
-    "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.d830a003.js",
-    "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.d830a003.js.map",
+    "main.css": "/deliveryapp_app/static/css/main.c750414a.chunk.css",
+    "main.js": "/deliveryapp_app/static/js/main.d86ccb15.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.d86ccb15.chunk.js.map",
+    "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.5d4baecc.js",
+    "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.5d4baecc.js.map",
     "static/css/2.4be38407.chunk.css": "/deliveryapp_app/static/css/2.4be38407.chunk.css",
-    "static/js/2.2c08176c.chunk.js": "/deliveryapp_app/static/js/2.2c08176c.chunk.js",
-    "static/js/2.2c08176c.chunk.js.map": "/deliveryapp_app/static/js/2.2c08176c.chunk.js.map",
-    "static/js/3.ceef4e5b.chunk.js": "/deliveryapp_app/static/js/3.ceef4e5b.chunk.js",
-    "static/js/3.ceef4e5b.chunk.js.map": "/deliveryapp_app/static/js/3.ceef4e5b.chunk.js.map",
+    "static/js/2.4da3f407.chunk.js": "/deliveryapp_app/static/js/2.4da3f407.chunk.js",
+    "static/js/2.4da3f407.chunk.js.map": "/deliveryapp_app/static/js/2.4da3f407.chunk.js.map",
+    "static/js/3.c2907960.chunk.js": "/deliveryapp_app/static/js/3.c2907960.chunk.js",
+    "static/js/3.c2907960.chunk.js.map": "/deliveryapp_app/static/js/3.c2907960.chunk.js.map",
     "index.html": "/deliveryapp_app/index.html",
     "static/css/2.4be38407.chunk.css.map": "/deliveryapp_app/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.6ca06ccf.chunk.css.map": "/deliveryapp_app/static/css/main.6ca06ccf.chunk.css.map",
-    "static/js/2.2c08176c.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.2c08176c.chunk.js.LICENSE.txt",
+    "static/css/main.c750414a.chunk.css.map": "/deliveryapp_app/static/css/main.c750414a.chunk.css.map",
+    "static/js/2.4da3f407.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.4da3f407.chunk.js.LICENSE.txt",
+    "static/media/restimg.3f3d86e8.jpg": "/deliveryapp_app/static/media/restimg.3f3d86e8.jpg",
     "static/media/undraw_Hamburger_8ge6.f04a3704.svg": "/deliveryapp_app/static/media/undraw_Hamburger_8ge6.f04a3704.svg",
     "static/media/undraw_breakfast_psiw.fdfbdb40.svg": "/deliveryapp_app/static/media/undraw_breakfast_psiw.fdfbdb40.svg",
     "static/media/undraw_ice_cream_s2rh rose.75c0d536.svg": "/deliveryapp_app/static/media/undraw_ice_cream_s2rh rose.75c0d536.svg",
@@ -21,10 +22,10 @@
     "static/media/watermelon-icon.14c6f06f.png": "/deliveryapp_app/static/media/watermelon-icon.14c6f06f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d830a003.js",
+    "static/js/runtime-main.5d4baecc.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.2c08176c.chunk.js",
-    "static/css/main.6ca06ccf.chunk.css",
-    "static/js/main.05a5ea3c.chunk.js"
+    "static/js/2.4da3f407.chunk.js",
+    "static/css/main.c750414a.chunk.css",
+    "static/js/main.d86ccb15.chunk.js"
   ]
 }
