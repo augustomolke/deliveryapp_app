@@ -1,4 +1,4 @@
-import { Jumbotron, Spinner } from "react-bootstrap";
+import { Jumbotron, Spinner, Row, Col } from "react-bootstrap";
 import ResourceCard from "./ResourceCard";
 import restimg from "../assets/restimg.jpg";
 import InputGroup from "react-bootstrap/InputGroup";
