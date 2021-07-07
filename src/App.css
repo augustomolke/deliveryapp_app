@@ -132,12 +132,18 @@ h3 {
 }
 
 .listing {
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .resourcecard {
-  margin: 24px;
+  margin: 16px;
+  box-shadow: 2px 1px 4px 1px #6a8572;
+}
+
+.resourcecardLink {
+  text-decoration: none !important;
 }
 
 .listingContainer {

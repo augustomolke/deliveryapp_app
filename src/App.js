@@ -40,9 +40,7 @@ function App() {
               />
             </Route>
             <PrivateRoute
-
               path="/myaccount"
-
               component={myAccountPage}
               permissions={"CLIENT, ADMIN"}
             />
