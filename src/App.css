@@ -138,12 +138,21 @@ h3 {
 }
 
 .resourcecard {
-  margin: 16px;
   box-shadow: 2px 1px 4px 1px #6a8572;
+  max-width: 100% !important;
+  position: absolute;
 }
 
 .resourcecardLink {
   text-decoration: none !important;
+  max-width: 100% !important;
+  margin: 16px 16px;
+}
+
+@media (max-width: 480px) {
+  .resourcecardLink {
+    margin: 16px 0px;
+  }
 }
 
 .listingContainer {
