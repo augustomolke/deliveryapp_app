@@ -127,5 +127,20 @@ h3 {
   border-radius: 30px;
 }
 
-.loginButton:focus {
+.searchbar {
+  border-radius: 30px !important;
+}
+
+.listing {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.resourcecard {
+  margin: 24px;
+}
+
+.listingContainer {
+  max-width: 80vw;
+  border-radius: 50px;
 }

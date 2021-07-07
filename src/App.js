@@ -9,6 +9,7 @@ import PrivateRoute from "./routes/PrivateRoute";
 import authServices from "./services/authServices";
 import Home from "./pages/home";
 import myAccountPage from "./pages/myAccountPage";
+import RestaurantsPage from "./pages/RestaurantsPage";
 
 function App() {
   const [isLogged, setIsLogged] = useState(!!authServices.getCurrentUser());
@@ -39,8 +40,14 @@ function App() {
               />
             </Route>
             <PrivateRoute
-              path="/mydata"
+              path="/myaccount"
               component={myAccountPage}
+              permissions={"CLIENT, ADMIN"}
+            />
+
+            <PrivateRoute
+              path="/restaurants"
+              component={RestaurantsPage}
               permissions={"CLIENT, ADMIN"}
             />
           </Switch>
