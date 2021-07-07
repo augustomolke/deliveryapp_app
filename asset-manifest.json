@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deliveryapp_app/static/css/main.66b5bb93.chunk.css",
+    "main.css": "/deliveryapp_app/static/css/main.76b8ccf7.chunk.css",
     "main.js": "/deliveryapp_app/static/js/main.c5d8caf7.chunk.js",
     "main.js.map": "/deliveryapp_app/static/js/main.c5d8caf7.chunk.js.map",
     "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.72951463.js",
@@ -12,7 +12,7 @@
     "static/js/3.a90ca02f.chunk.js.map": "/deliveryapp_app/static/js/3.a90ca02f.chunk.js.map",
     "index.html": "/deliveryapp_app/index.html",
     "static/css/2.4be38407.chunk.css.map": "/deliveryapp_app/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.66b5bb93.chunk.css.map": "/deliveryapp_app/static/css/main.66b5bb93.chunk.css.map",
+    "static/css/main.76b8ccf7.chunk.css.map": "/deliveryapp_app/static/css/main.76b8ccf7.chunk.css.map",
     "static/js/2.273e8204.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.273e8204.chunk.js.LICENSE.txt",
     "static/media/restimg.3f3d86e8.jpg": "/deliveryapp_app/static/media/restimg.3f3d86e8.jpg",
     "static/media/undraw_Hamburger_8ge6.f04a3704.svg": "/deliveryapp_app/static/media/undraw_Hamburger_8ge6.f04a3704.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.72951463.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.273e8204.chunk.js",
-    "static/css/main.66b5bb93.chunk.css",
+    "static/css/main.76b8ccf7.chunk.css",
     "static/js/main.c5d8caf7.chunk.js"
   ]
 }
