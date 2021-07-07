@@ -46,9 +46,10 @@ const ResourceListing = () => {
                 key={i._id}
                 name={i.name}
                 img={restimg}
-                description="algum texto descritivo sobre  prato ourestaurante"
+                description={i.description}
                 rating={i.rating}
                 freight={i.freight}
+                path={i._id}
               />
             );
           })}
