@@ -12,7 +12,7 @@ const ResourceCard = ({
   path,
 }) => {
   return (
-    <Link className="resourcecardLink" to={"restaurants/" + path}>
+    <Link eventKey="1" className="resourcecardLink" to={"/restaurants/" + path}>
       <Card bsPrefix="resourcecard card" style={{ width: "18rem" }}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
