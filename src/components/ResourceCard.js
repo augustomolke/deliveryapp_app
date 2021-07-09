@@ -24,7 +24,7 @@ const ResourceCard = ({
             <AiFillStar size={24} style={{ fill: "yellow" }} />
           </Card.Subtitle>
           <Card.Text>{description}</Card.Text>
-          <Card.Footer>
+          <Card.Footer bsPrefix="addButton card-footer">
             {freight > 0 ? (
               <label>
                 Fee: <i>$ {freight}</i>

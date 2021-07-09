@@ -41,7 +41,7 @@ const ResourceListing = () => {
   }, []);
 
   return (
-    <Jumbotron bsPrefix="jumbotron listingContainer center bg-lighterrose">
+    <Jumbotron bsPrefix="jumbotron listingContainer center ">
       <InputGroup className="mb-3" size="lg">
         <FormControl
           bsPrefix="searchbar form-control"
@@ -54,13 +54,18 @@ const ResourceListing = () => {
       {isPending ? (
         <Spinner animation="border" role="status" variant="success"></Spinner>
       ) : (
-        <Jumbotron bsPrefix="bg-lighterrose listing jumbotron">
+        <Jumbotron bsPrefix=" listing jumbotron">
           {list.map((i) => {
             return (
               <ResourceCard
                 key={i._id}
                 name={i.name}
-                img={imgs[Math.floor(Math.random() * imgs.length)]}
+                img={(function () {
+                  let i = Math.floor(Math.random() * imgs.length);
+                  let chosen = imgs[i];
+                  imgs.splice(i, 1);
+                  return chosen;
+                })()}
                 description={i.description}
                 rating={i.rating}
                 freight={i.freight}

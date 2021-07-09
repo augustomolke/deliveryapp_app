@@ -48,6 +48,10 @@
   background-color: #f3fbe9 !important;
 }
 
+.bg-gray {
+  background-color: #f0f0f0;
+}
+
 .homecontent {
   min-height: 80vh;
 }
@@ -138,8 +142,11 @@ h3 {
 }
 
 .resourcecard {
-  box-shadow: 2px 1px 4px 1px #6a8572;
-  max-width: 100% !important;
+  /*box-shadow: 2px 1px 4px 1px #6a8572;*/
+  width: 288px !important;
+  height: 409px;
+  max-width: 50vw;
+  max-height: 60vh;
 }
 
 .resourcecardLink {
@@ -156,5 +163,26 @@ h3 {
 
 .listingContainer {
   max-width: 80vw;
-  border-radius: 50px;
+  border-radius: 30px;
+}
+
+.addButton {
+  background-color: #1d741b !important;
+  border-radius: 12px !important;
+  border: 0px !important;
+  color: white !important;
+}
+
+.addButton label {
+  color: white !important;
+}
+
+.addButton i {
+  color: white !important;
+  font-weight: 900;
+  font-size: larger;
+}
+
+.card-text {
+  height: 40%;
 }
