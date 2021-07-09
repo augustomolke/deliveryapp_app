@@ -8,16 +8,18 @@ import pic5 from "../assets/pic5.jpg";
 import pic6 from "../assets/pic6.jpg";
 import pic7 from "../assets/pic7.jpg";
 import pic8 from "../assets/pic8.jpg";
+import pic9 from "../assets/pic9.jpg";
+import pic10 from "../assets/pic10.jpg";
 
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import restaurantServices from "../services/restaurantServices";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const ResourceListing = () => {
   const [list, setList] = useState([]);
   const [isPending, setIsPending] = useState(false);
-  let imgs = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8];
+  let imgs = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10];
 
   const getRests = (name) => {
     setIsPending(true);
@@ -33,6 +35,10 @@ const ResourceListing = () => {
       }
     );
   };
+
+  useEffect(() => {
+    getRests("");
+  }, []);
 
   return (
     <Jumbotron bsPrefix="jumbotron listingContainer center bg-lighterrose">
