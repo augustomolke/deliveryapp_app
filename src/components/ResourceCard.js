@@ -1,6 +1,7 @@
 import { Card, Button, NavItem } from "react-bootstrap";
 import Link from "react-router-dom/Link";
 import { AiFillStar } from "react-icons/ai";
+import { FaCoins } from "react-icons/fa";
 
 const ResourceCard = ({
   name,
@@ -21,7 +22,7 @@ const ResourceCard = ({
           </Card.Title>
           <Card.Subtitle>
             <b>{rating}</b>
-            <AiFillStar size={24} style={{ fill: "yellow" }} />
+            <AiFillStar size={24} style={{ fill: "#ffd000" }} />
           </Card.Subtitle>
           <Card.Text>{description}</Card.Text>
           <Card.Footer bsPrefix="addButton card-footer">
@@ -31,7 +32,8 @@ const ResourceCard = ({
               </label>
             ) : (
               <label>
-                Fee: <i style={{ color: "green" }}>Free</i>
+                Fee: <i style={{ color: "green" }}>Free</i>{" "}
+                <FaCoins style={{ fill: "#ffd000" }} />
               </label>
             )}
             {price && <>Price: $ {price} </>}
