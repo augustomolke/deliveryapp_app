@@ -1,6 +1,14 @@
 import { Jumbotron, Spinner, Row, Col } from "react-bootstrap";
 import ResourceCard from "./ResourceCard";
-import restimg from "../assets/restimg.jpg";
+import pic1 from "../assets/pic1.jpg";
+import pic2 from "../assets/pic2.jpg";
+import pic3 from "../assets/pic3.jpg";
+import pic4 from "../assets/pic4.jpg";
+import pic5 from "../assets/pic5.jpg";
+import pic6 from "../assets/pic6.jpg";
+import pic7 from "../assets/pic7.jpg";
+import pic8 from "../assets/pic8.jpg";
+
 import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import restaurantServices from "../services/restaurantServices";
@@ -9,6 +17,7 @@ import { useState } from "react";
 const ResourceListing = () => {
   const [list, setList] = useState([]);
   const [isPending, setIsPending] = useState(false);
+  let imgs = [pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8];
 
   const getRests = (name) => {
     setIsPending(true);
@@ -45,7 +54,7 @@ const ResourceListing = () => {
               <ResourceCard
                 key={i._id}
                 name={i.name}
-                img={restimg}
+                img={imgs[Math.floor(Math.random() * imgs.length)]}
                 description={i.description}
                 rating={i.rating}
                 freight={i.freight}

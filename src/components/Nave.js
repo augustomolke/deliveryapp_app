@@ -40,9 +40,7 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
               Restaurants
             </Nav.Link>
             <NavDropdown title="My Account" id="basic-nav-dropdown">
-
               <NavDropdown.Item as={Link} to="/myaccount">
-
                 Change my Data
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">My Orders</NavDropdown.Item>
@@ -77,6 +75,9 @@ const Nave = ({ authStatus, handleLogout, handleLogin }) => {
           <Nav className="ml-auto">
             <Nav.Link eventKey="1" as={Link} to="/">
               Home
+            </Nav.Link>
+            <Nav.Link eventKey="1" as={Link} to="/restaurants">
+              Restaurants
             </Nav.Link>
             <Nav.Link eventKey="1" as={Link} to="/createuser">
               Create an Account

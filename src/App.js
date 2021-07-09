@@ -43,12 +43,7 @@ function App() {
               permissions={"CLIENT, ADMIN"}
             />
 
-            <PrivateRoute
-              exact
-              path="/restaurants"
-              component={RestaurantsPage}
-              permissions={"CLIENT, ADMIN"}
-            />
+            <Route exact path="/restaurants" component={RestaurantsPage} />
             <PrivateRoute
               path="/restaurants/:id"
               component={ResourceDetails}
