@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/deliveryapp_app/static/css/main.0efcb503.chunk.css",
-    "main.js": "/deliveryapp_app/static/js/main.bc8d6485.chunk.js",
-    "main.js.map": "/deliveryapp_app/static/js/main.bc8d6485.chunk.js.map",
+    "main.css": "/deliveryapp_app/static/css/main.0a5ab383.chunk.css",
+    "main.js": "/deliveryapp_app/static/js/main.a4779d80.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.a4779d80.chunk.js.map",
     "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.72951463.js",
     "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.72951463.js.map",
     "static/css/2.4be38407.chunk.css": "/deliveryapp_app/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a90ca02f.chunk.js.map": "/deliveryapp_app/static/js/3.a90ca02f.chunk.js.map",
     "index.html": "/deliveryapp_app/index.html",
     "static/css/2.4be38407.chunk.css.map": "/deliveryapp_app/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.0efcb503.chunk.css.map": "/deliveryapp_app/static/css/main.0efcb503.chunk.css.map",
+    "static/css/main.0a5ab383.chunk.css.map": "/deliveryapp_app/static/css/main.0a5ab383.chunk.css.map",
     "static/js/2.583273b6.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.583273b6.chunk.js.LICENSE.txt",
     "static/media/pic1.f94b815b.jpg": "/deliveryapp_app/static/media/pic1.f94b815b.jpg",
     "static/media/pic10.81007fc8.jpg": "/deliveryapp_app/static/media/pic10.81007fc8.jpg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.72951463.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.583273b6.chunk.js",
-    "static/css/main.0efcb503.chunk.css",
-    "static/js/main.bc8d6485.chunk.js"
+    "static/css/main.0a5ab383.chunk.css",
+    "static/js/main.a4779d80.chunk.js"
   ]
 }
