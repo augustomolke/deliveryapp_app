@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deliveryapp_app/static/css/main.0efcb503.chunk.css",
-    "main.js": "/deliveryapp_app/static/js/main.9244dbf0.chunk.js",
-    "main.js.map": "/deliveryapp_app/static/js/main.9244dbf0.chunk.js.map",
+    "main.js": "/deliveryapp_app/static/js/main.bc8d6485.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.bc8d6485.chunk.js.map",
     "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.72951463.js",
     "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.72951463.js.map",
     "static/css/2.4be38407.chunk.css": "/deliveryapp_app/static/css/2.4be38407.chunk.css",
@@ -14,14 +14,16 @@
     "static/css/2.4be38407.chunk.css.map": "/deliveryapp_app/static/css/2.4be38407.chunk.css.map",
     "static/css/main.0efcb503.chunk.css.map": "/deliveryapp_app/static/css/main.0efcb503.chunk.css.map",
     "static/js/2.583273b6.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.583273b6.chunk.js.LICENSE.txt",
-    "static/media/pic1.7c842980.jpg": "/deliveryapp_app/static/media/pic1.7c842980.jpg",
-    "static/media/pic2.78c3da21.jpg": "/deliveryapp_app/static/media/pic2.78c3da21.jpg",
-    "static/media/pic3.b84b2cf4.jpg": "/deliveryapp_app/static/media/pic3.b84b2cf4.jpg",
-    "static/media/pic4.8d9ba12a.jpg": "/deliveryapp_app/static/media/pic4.8d9ba12a.jpg",
-    "static/media/pic5.6d075479.jpg": "/deliveryapp_app/static/media/pic5.6d075479.jpg",
-    "static/media/pic6.ab2edc3b.jpg": "/deliveryapp_app/static/media/pic6.ab2edc3b.jpg",
-    "static/media/pic7.32038396.jpg": "/deliveryapp_app/static/media/pic7.32038396.jpg",
-    "static/media/pic8.6a12ddbe.jpg": "/deliveryapp_app/static/media/pic8.6a12ddbe.jpg",
+    "static/media/pic1.f94b815b.jpg": "/deliveryapp_app/static/media/pic1.f94b815b.jpg",
+    "static/media/pic10.81007fc8.jpg": "/deliveryapp_app/static/media/pic10.81007fc8.jpg",
+    "static/media/pic2.23933bbd.jpg": "/deliveryapp_app/static/media/pic2.23933bbd.jpg",
+    "static/media/pic3.9ab2cc3d.jpg": "/deliveryapp_app/static/media/pic3.9ab2cc3d.jpg",
+    "static/media/pic4.d0dd7ef8.jpg": "/deliveryapp_app/static/media/pic4.d0dd7ef8.jpg",
+    "static/media/pic5.af825bdc.jpg": "/deliveryapp_app/static/media/pic5.af825bdc.jpg",
+    "static/media/pic6.cee72007.jpg": "/deliveryapp_app/static/media/pic6.cee72007.jpg",
+    "static/media/pic7.39644f32.jpg": "/deliveryapp_app/static/media/pic7.39644f32.jpg",
+    "static/media/pic8.5c8b3173.jpg": "/deliveryapp_app/static/media/pic8.5c8b3173.jpg",
+    "static/media/pic9.b0f5d139.jpg": "/deliveryapp_app/static/media/pic9.b0f5d139.jpg",
     "static/media/undraw_Hamburger_8ge6.f04a3704.svg": "/deliveryapp_app/static/media/undraw_Hamburger_8ge6.f04a3704.svg",
     "static/media/undraw_breakfast_psiw.fdfbdb40.svg": "/deliveryapp_app/static/media/undraw_breakfast_psiw.fdfbdb40.svg",
     "static/media/undraw_ice_cream_s2rh rose.75c0d536.svg": "/deliveryapp_app/static/media/undraw_ice_cream_s2rh rose.75c0d536.svg",
@@ -33,6 +35,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.583273b6.chunk.js",
     "static/css/main.0efcb503.chunk.css",
-    "static/js/main.9244dbf0.chunk.js"
+    "static/js/main.bc8d6485.chunk.js"
   ]
 }
