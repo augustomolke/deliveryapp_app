@@ -11,6 +11,7 @@ import Home from "./pages/home";
 import myAccountPage from "./pages/myAccountPage";
 import RestaurantsPage from "./pages/RestaurantsPage";
 import ResourceDetails from "./components/ResourceDetails";
+import CreateProdPage from "./pages/createProd";
 function App() {
   const [isLogged, setIsLogged] = useState(!!authServices.getCurrentUser());
 
@@ -44,11 +45,14 @@ function App() {
             />
 
             <Route exact path="/restaurants" component={RestaurantsPage} />
+
             <PrivateRoute
               path="/restaurants/:id"
               component={ResourceDetails}
               permissions={"CLIENT, ADMIN"}
             />
+
+            <Route path="/createprod" component={CreateProdPage} />
           </Switch>
         </div>
       </div>
