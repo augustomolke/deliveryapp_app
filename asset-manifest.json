@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/deliveryapp_app/static/css/main.0a5ab383.chunk.css",
-    "main.js": "/deliveryapp_app/static/js/main.a8be5425.chunk.js",
-    "main.js.map": "/deliveryapp_app/static/js/main.a8be5425.chunk.js.map",
+    "main.css": "/deliveryapp_app/static/css/main.881e03d4.chunk.css",
+    "main.js": "/deliveryapp_app/static/js/main.4941b606.chunk.js",
+    "main.js.map": "/deliveryapp_app/static/js/main.4941b606.chunk.js.map",
     "runtime-main.js": "/deliveryapp_app/static/js/runtime-main.1c058c94.js",
     "runtime-main.js.map": "/deliveryapp_app/static/js/runtime-main.1c058c94.js.map",
     "static/css/2.4be38407.chunk.css": "/deliveryapp_app/static/css/2.4be38407.chunk.css",
-    "static/js/2.45b9557a.chunk.js": "/deliveryapp_app/static/js/2.45b9557a.chunk.js",
-    "static/js/2.45b9557a.chunk.js.map": "/deliveryapp_app/static/js/2.45b9557a.chunk.js.map",
+    "static/js/2.0973a028.chunk.js": "/deliveryapp_app/static/js/2.0973a028.chunk.js",
+    "static/js/2.0973a028.chunk.js.map": "/deliveryapp_app/static/js/2.0973a028.chunk.js.map",
     "static/js/3.6bbf9faa.chunk.js": "/deliveryapp_app/static/js/3.6bbf9faa.chunk.js",
     "static/js/3.6bbf9faa.chunk.js.map": "/deliveryapp_app/static/js/3.6bbf9faa.chunk.js.map",
     "index.html": "/deliveryapp_app/index.html",
     "static/css/2.4be38407.chunk.css.map": "/deliveryapp_app/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.0a5ab383.chunk.css.map": "/deliveryapp_app/static/css/main.0a5ab383.chunk.css.map",
-    "static/js/2.45b9557a.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.45b9557a.chunk.js.LICENSE.txt",
+    "static/css/main.881e03d4.chunk.css.map": "/deliveryapp_app/static/css/main.881e03d4.chunk.css.map",
+    "static/js/2.0973a028.chunk.js.LICENSE.txt": "/deliveryapp_app/static/js/2.0973a028.chunk.js.LICENSE.txt",
     "static/media/pic1.f94b815b.jpg": "/deliveryapp_app/static/media/pic1.f94b815b.jpg",
     "static/media/pic10.81007fc8.jpg": "/deliveryapp_app/static/media/pic10.81007fc8.jpg",
     "static/media/pic2.23933bbd.jpg": "/deliveryapp_app/static/media/pic2.23933bbd.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.1c058c94.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.45b9557a.chunk.js",
-    "static/css/main.0a5ab383.chunk.css",
-    "static/js/main.a8be5425.chunk.js"
+    "static/js/2.0973a028.chunk.js",
+    "static/css/main.881e03d4.chunk.css",
+    "static/js/main.4941b606.chunk.js"
   ]
 }
