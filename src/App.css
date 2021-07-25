@@ -183,6 +183,14 @@ h3 {
   font-size: larger;
 }
 
-.card-text {
-  height: 40%;
+.card-body {
+  position: relative;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  box-sizing: border-box !important;
 }
